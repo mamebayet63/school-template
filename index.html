@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.min.css">
+    <style>
+        .violet {
+            background-color: blueviolet;
+            color: white;
+        }
+
+        .monCouleur {
+            color: blueviolet;
+        }
+
+        .monImage {
+            height: 100%;
+            width: 100%;
+        }
+
+        .monSize {
+            font-size: 50px;
+        }
+
+        .jaune {
+            color: #F3CD03;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid vstack gap-5">
+        <header>
+            <div class="container">
+                <nav class="navbar navbar-expand-lg ">
+                    <div class="container-fluid ">
+                        <a class="navbar-brand" href="#">BrandName</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse  " id="navbarNav">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Product</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Pricing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="collapse navbar-collapse " id="navbarNav">
+                            <button type="button" class="btn ms-auto">login</button>
+                            <button class="btn btn-sm btn-outline-secondary violet ml-auto" type="button">Join Us<i
+                                    class="ri-arrow-right-line"></i></button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-around ">
+                <div class="col-12 col-lg-3 ">
+                    <div class="card-body">
+                        <span>Online training</span><br><br>
+                        <h1 class="card-title">25K+ STUDENTS TRUST US <br></h1> <br>
+                        <p class="card-text">Our goal is to make online education work for everyone</p>
+                        <button type="button" class="btn btn-outline-primary" disabled>Primary button</button>
+                        <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 " style="height: 350px;">
+                    <img src="image/Group 22.svg" class="monImage rounded float-end" alt="...">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="row">
+                    <div class=" col-sm-4 mb-3 mb-sm-0">
+                        <div class="card">
+                            <div class="card-body">
+                                <h1 class="card-title fs-1 monSize"><i class="ri-school-fill"></i></h1>
+                                <h5>2,769 online courses </h5>
+                                <p class="card-text">The gradual accumulation of
+                                    information about atomic and
+                                    small-scale behaviour...</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h1 class="card-title fs-1 monSize"><i class="ri-book-marked-fill"></i></h1>
+                                <h5>2,769 online courses </h5>
+                                <p class="card-text">The gradual accumulation of
+                                    information about atomic and
+                                    small-scale behaviour...</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h1 class="card-title fs-1 monSize"><i class="ri-presentation-fill"></i></h1>
+                                <h5>2,769 online courses </h5>
+                                <p class="card-text">The gradual accumulation of
+                                    information about atomic and
+                                    small-scale behaviour...</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <hr>
+            <div class="container">
+                <div class="row d-flex justify-content-around align-items-center">
+                    <div class="col-12 d-md-none col-md-4 h-50">
+                        <h3>Our Experts
+                            Teacher</h3> <br>
+                        <p>Problems trying to resolve the conflict between
+                            the two major realms of Classical physics:
+                            Newtonian mechanics </p>
+                        <button type="button" class="btn ms-auto">Learn More<i
+                                class="ri-arrow-right-s-line"></i></button>
+
+                    </div>
+                    <div class="col-12 col-md-5">
+                        <img src="image/Group 23.svg" class="monImage" alt="">
+                    </div>
+                    <div class="d-none d-md-block col-md-4 h-50">
+                        <h3>Our Experts
+                            Teacher</h3> <br>
+                        <p>Problems trying to resolve the conflict between
+                            the two major realms of Classical physics:
+                            Newtonian mechanics </p>
+                        <button type="button" class="btn ms-auto">Learn More<i
+                                class="ri-arrow-right-s-line"></i></button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <hr>
+            <div class="container">
+                <div class="row d-flex justify-content-around align-items-center">
+                    <div class="col-12 col-md-4  h-50">
+                        <h3>Our Experts
+                            Teacher</h3> <br>
+                        <p>Problems trying to resolve the conflict between
+                            the two major realms of Classical physics:
+                            Newtonian mechanics </p>
+                        <button type="button" class="btn ms-auto">Learn More<i
+                                class="ri-arrow-right-s-line"></i></button>
+
+                    </div>
+                    <div class="col-12 col-md-5">
+                        <img src="image/Video card.svg" class="monImage" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <p>Practice Advice</p>
+                <h1>Our Popular Courses</h1>
+                <p class="d-none d-md-block">Problems trying to resolve the conflict between
+                    the two major realms of Classical physics: Newtonian mechanics </p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+                <div class="card mt-4" style="width: 22rem;">
+                    <img src="image/fixed-height.svg" class="card-img-top " alt="...">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-9">
+                                <h5 class="card-title monCouleur">For Better Future</h5>
+                            </div>
+                            <div class="col-2">
+                                <img src="image/Frame 4 sec-.svg" alt="">
+                            </div>
+                        </div>
+                        <h5>2,769 online courses </h5>
+                        <p class="card-text">We focus on ergonomics and meeting
+                            you where you work. It's only a
+                            keystroke away.</p>
+                        <p><i class="ri-download-2-fill"></i> 15 Sales</p>
+
+                        <span>$16.48 </span><span class="monCouleur"> $6.48</span>
+                        <br>
+                        <a href="#" class="btn btn-outline-primary mt-3">Learn More<i
+                                class="ri-arrow-right-s-line"></i></a>
+                    </div>
+                </div>
+                <div class="card mt-4" style="width: 22rem;">
+                    <img src="image/fixed-height.svg" class="card-img-top " alt="...">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-9">
+                                <h5 class="card-title monCouleur">For Better Future</h5>
+                            </div>
+                            <div class="col-2">
+                                <img src="image/Frame 4 sec-.svg" alt="">
+                            </div>
+                        </div>
+                        <h5>2,769 online courses </h5>
+                        <p class="card-text">We focus on ergonomics and meeting
+                            you where you work. It's only a
+                            keystroke away.</p>
+                        <p><i class="ri-download-2-fill"></i> 15 Sales</p>
+
+                        <span>$16.48 </span><span class="monCouleur"> $6.48</span>
+                        <br>
+                        <a href="#" class="btn btn-outline-primary mt-3">Learn More<i
+                                class="ri-arrow-right-s-line"></i></a>
+                    </div>
+                </div>
+                <div class="card mt-4" style="width: 22rem;">
+                    <img src="image/fixed-height.svg" class="card-img-top " alt="...">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-9">
+                                <h5 class="card-title monCouleur">For Better Future</h5>
+                            </div>
+                            <div class="col-2">
+                                <img src="image/Frame 4 sec-.svg" alt="">
+                            </div>
+                        </div>
+                        <h5>2,769 online courses </h5>
+                        <p class="card-text">We focus on ergonomics and meeting
+                            you where you work. It's only a
+                            keystroke away.</p>
+                        <p><i class="ri-download-2-fill"></i> 15 Sales</p>
+
+                        <span>$16.48 </span><span class="monCouleur"> $6.48</span>
+                        <br>
+                        <a href="#" class="btn btn-outline-primary mt-3">Learn More<i
+                                class="ri-arrow-right-s-line"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <p>Practice Advice</p>
+                <h1>Approdable Packages</h1>
+                <p class="d-none d-md-block">Problems trying to resolve the conflict between
+                    the two major realms of Classical physics: Newtonian mechanics </p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row  d-flex justify-content-between">
+                <div class="col-12 col-md-3 mt-4  text-center bg-white">
+                    <div class="row">
+                        <h4 class="jaune"><i class="ri-star-fill">  </i><i class="ri-star-fill"> </i> <i
+                                class="ri-star-fill"> </i> <i class="ri-star-fill"> </i> <i class="ri-star-line"> </i></h4>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-9 ">
+                            <p>Slate helps you see
+                                how many more days
+                                you need to work to
+                                reach your financial
+                                goal for the month
+                                and year.</p>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-3">
+                            <img class="monImage" src="image/circle.svg" alt="">
+                        </div>
+                        <div class="col-5 ">
+                            
+                                <p class="mt-3">Regina Miles <br><span>Designer</span></p>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mt-4  text-center bg-white">
+                    <div class="row">
+                        <h4 class="jaune"><i class="ri-star-fill">  </i><i class="ri-star-fill"> </i> <i
+                                class="ri-star-fill"> </i> <i class="ri-star-fill"> </i> <i class="ri-star-line"> </i></h4>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-9 ">
+                            <p>Slate helps you see
+                                how many more days
+                                you need to work to
+                                reach your financial
+                                goal for the month
+                                and year.</p>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-3">
+                            <img class="monImage" src="image/circle.svg" alt="">
+                        </div>
+                        <div class="col-5 ">
+                            
+                                <p class="mt-3">Regina Miles <br><span>Designer</span></p>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mt-4  text-center bg-white">
+                    <div class="row">
+                        <h4 class="jaune"><i class="ri-star-fill">  </i><i class="ri-star-fill"> </i> <i
+                                class="ri-star-fill"> </i> <i class="ri-star-fill"> </i> <i class="ri-star-line"> </i></h4>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-9 ">
+                            <p>Slate helps you see
+                                how many more days
+                                you need to work to
+                                reach your financial
+                                goal for the month
+                                and year.</p>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-3">
+                            <img class="monImage" src="image/circle.svg" alt="">
+                        </div>
+                        <div class="col-5 ">
+                            
+                                <p class="mt-3">Regina Miles <br><span>Designer</span></p>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
