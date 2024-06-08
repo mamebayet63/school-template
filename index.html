@@ -27,62 +27,84 @@
             font-size: 50px;
         }
 
+        .petit {
+            font-size: 12px;
+        }
+
         .jaune {
             color: #F3CD03;
+        }
+
+        body {
+            background-color: #26335D;
+            color: white;
+        }
+
+        .bag {
+            background-image: url(image/background\ sec-.svg);
         }
     </style>
 </head>
 
 <body>
     <div class="container-fluid vstack gap-5">
-        <header>
-            <div class="container">
-                <nav class="navbar navbar-expand-lg ">
-                    <div class="container-fluid ">
-                        <a class="navbar-brand" href="#">BrandName</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse  " id="navbarNav">
-                            <ul class="navbar-nav ms-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Product</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Pricing</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
-                                </li>
-                            </ul>
+        <div class="row bag vstack gap-5">
+            <header>
+                <div class="container mt-2">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid ">
+                            <a class="navbar-brand text-white fw-bold" href="#">BrandName</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse  " id="navbarNav">
+                                <ul class="navbar-nav ms-auto ">
+                                    <li class="nav-item">
+                                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Product</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Pricing</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="collapse navbar-collapse " id="navbarNav">
+                                <button type="button" class="btn ms-auto text-white">login</button>
+                                <button class="btn btn-sm btn-outline-secondary violet ml-auto" type="button">Join Us<i
+                                        class="ri-arrow-right-line"></i></button>
+                            </div>
                         </div>
-                        <div class="collapse navbar-collapse " id="navbarNav">
-                            <button type="button" class="btn ms-auto">login</button>
-                            <button class="btn btn-sm btn-outline-secondary violet ml-auto" type="button">Join Us<i
-                                    class="ri-arrow-right-line"></i></button>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </header>
-        <div class="container-fluid">
-            <div class="row d-flex justify-content-around ">
-                <div class="col-12 col-lg-3 ">
-                    <div class="card-body">
-                        <span>Online training</span><br><br>
-                        <h1 class="card-title">25K+ STUDENTS TRUST US <br></h1> <br>
-                        <p class="card-text">Our goal is to make online education work for everyone</p>
-                        <button type="button" class="btn btn-outline-primary" disabled>Primary button</button>
-                        <a href="#" class="btn btn-outline-primary">Go somewhere</a>
-                    </div>
+                    </nav>
                 </div>
-                <div class="col-12 col-lg-6 " style="height: 350px;">
-                    <img src="image/Group 22.svg" class="monImage rounded float-end" alt="...">
+            </header>
+            <div class="container-fluid  mb-5">
+                <div class="container mt-5">
+                    <div class="row ">
+                        <div class="col-12 col-lg-3 ">
+                            <div class="card-body mt-5">
+                                <span>Online training</span><br><br>
+                                <h1 class="card-title">25K+ STUDENTS TRUST US <br></h1> <br>
+                                <p class="card-text">Our goal is to make online education work for everyone</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-5 col-md-2 "> <button type="button" class=" violet mt-3"
+                                    disabled>Primary
+                                    button</button>
+                            </div>
+                            <div class="col-5 col-md-2"> <a href="#" class="btn btn-outline-light mt-3">Go
+                                    somewhere</a>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -101,7 +123,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 mb-3 mb-sm-0">
                         <div class="card">
                             <div class="card-body">
                                 <h1 class="card-title fs-1 monSize"><i class="ri-book-marked-fill"></i></h1>
@@ -138,7 +160,7 @@
                         <p>Problems trying to resolve the conflict between
                             the two major realms of Classical physics:
                             Newtonian mechanics </p>
-                        <button type="button" class="btn ms-auto">Learn More<i
+                        <button type="button" class="btn ms-auto text-white">Learn More<i
                                 class="ri-arrow-right-s-line"></i></button>
 
                     </div>
@@ -272,11 +294,12 @@
             <div class="row  d-flex justify-content-between">
                 <div class="col-12 col-md-3 mt-4  text-center bg-white">
                     <div class="row">
-                        <h4 class="jaune"><i class="ri-star-fill">  </i><i class="ri-star-fill"> </i> <i
-                                class="ri-star-fill"> </i> <i class="ri-star-fill"> </i> <i class="ri-star-line"> </i></h4>
+                        <h4 class="jaune"><i class="ri-star-fill"> </i><i class="ri-star-fill"> </i> <i
+                                class="ri-star-fill"> </i> <i class="ri-star-fill"> </i> <i class="ri-star-line"> </i>
+                        </h4>
                     </div>
                     <div class="row d-flex justify-content-center">
-                        <div class="col-9 ">
+                        <div class="col-9 text-black">
                             <p>Slate helps you see
                                 how many more days
                                 you need to work to
@@ -290,20 +313,21 @@
                             <img class="monImage" src="image/circle.svg" alt="">
                         </div>
                         <div class="col-5 ">
-                            
-                                <p class="mt-3">Regina Miles <br><span>Designer</span></p>
-                            
-                            
+
+                            <p class="mt-3 text-black">Regina Miles <br><span>Designer</span></p>
+
+
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-3 mt-4  text-center bg-white">
                     <div class="row">
-                        <h4 class="jaune"><i class="ri-star-fill">  </i><i class="ri-star-fill"> </i> <i
-                                class="ri-star-fill"> </i> <i class="ri-star-fill"> </i> <i class="ri-star-line"> </i></h4>
+                        <h4 class="jaune"><i class="ri-star-fill"> </i><i class="ri-star-fill"> </i> <i
+                                class="ri-star-fill"> </i> <i class="ri-star-fill"> </i> <i class="ri-star-line"> </i>
+                        </h4>
                     </div>
                     <div class="row d-flex justify-content-center">
-                        <div class="col-9 ">
+                        <div class="col-9 text-black">
                             <p>Slate helps you see
                                 how many more days
                                 you need to work to
@@ -317,20 +341,21 @@
                             <img class="monImage" src="image/circle.svg" alt="">
                         </div>
                         <div class="col-5 ">
-                            
-                                <p class="mt-3">Regina Miles <br><span>Designer</span></p>
-                            
-                            
+
+                            <p class="mt-3 text-black">Regina Miles <br><span>Designer</span></p>
+
+
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-3 mt-4  text-center bg-white">
                     <div class="row">
-                        <h4 class="jaune"><i class="ri-star-fill">  </i><i class="ri-star-fill"> </i> <i
-                                class="ri-star-fill"> </i> <i class="ri-star-fill"> </i> <i class="ri-star-line"> </i></h4>
+                        <h4 class="jaune"><i class="ri-star-fill"> </i><i class="ri-star-fill"> </i> <i
+                                class="ri-star-fill"> </i> <i class="ri-star-fill"> </i> <i class="ri-star-line"> </i>
+                        </h4>
                     </div>
                     <div class="row d-flex justify-content-center">
-                        <div class="col-9 ">
+                        <div class="col-9 text-black">
                             <p>Slate helps you see
                                 how many more days
                                 you need to work to
@@ -344,17 +369,206 @@
                             <img class="monImage" src="image/circle.svg" alt="">
                         </div>
                         <div class="col-5 ">
-                            
-                                <p class="mt-3">Regina Miles <br><span>Designer</span></p>
-                            
-                            
+
+                            <p class="mt-3 text-black">Regina Miles <br><span>Designer</span></p>
+
+
                         </div>
                     </div>
                 </div>
             </div>
 
         </div>
+        <div class="row text-center">
 
+            <h1>FAQ</h1>
+            <p class="d-none d-md-block">Problems trying to resolve the conflict between
+                the two major realms of Classical physics: Newtonian mechanics </p>
+        </div>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 mb-3 mb-sm-0">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="ri-arrow-right-s-line"></i>the quick fox jumps over the
+                                    lazy dog</h5>
+                                <p class="card-text mt-4">Things on a very small scale
+                                    behave like nothing </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 mb-3 mb-sm-0">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="ri-arrow-right-s-line"></i>the quick fox jumps over the
+                                    lazy dog</h5>
+                                <p class="card-text mt-4">Things on a very small scale
+                                    behave like nothing </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="ri-arrow-right-s-line"></i>the quick fox jumps over the
+                                    lazy dog</h5>
+                                <p class="card-text mt-4">Things on a very small scale
+                                    behave like nothing </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container d-none d-md-block">
+                <div class="row mt-4">
+                    <div class="col-sm-4 mb-3 mb-sm-0">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="ri-arrow-right-s-line"></i>the quick fox jumps over the
+                                    lazy dog</h5>
+                                <p class="card-text mt-4">Things on a very small scale
+                                    behave like nothing </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="ri-arrow-right-s-line"></i>the quick fox jumps over the
+                                    lazy dog</h5>
+                                <p class="card-text mt-4">Things on a very small scale
+                                    behave like nothing </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="ri-arrow-right-s-line"></i>the quick fox jumps over the
+                                    lazy dog</h5>
+                                <p class="card-text mt-4">Things on a very small scale
+                                    behave like nothing </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container d-none d-md-block">
+                <div class="row mt-4 ">
+                    <div class="col-sm-4 mb-3 mb-sm-0">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="ri-arrow-right-s-line"></i>the quick fox jumps over the
+                                    lazy dog</h5>
+                                <p class="card-text mt-4">Things on a very small scale
+                                    behave like nothing </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="ri-arrow-right-s-line"></i>the quick fox jumps over the
+                                    lazy dog</h5>
+                                <p class="card-text mt-4">Things on a very small scale
+                                    behave like nothing </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="ri-arrow-right-s-line"></i>the quick fox jumps over the
+                                    lazy dog</h5>
+                                <p class="card-text mt-4">Things on a very small scale
+                                    behave like nothing </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container ">
+            <div class="row text-center d-flex justify-content-center">
+                <div class="col-12 col-md-5">
+                    <p class="monCouleur">Newsletter</p>
+                    <h1>Every Client Matters</h1>
+                    <span class="petit mt-3">Problems trying to resolve the conflict between <br>
+                        the two major realms of Classical physics: Newtonian mechanics </span>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center mt-5">
+
+                <div class="col-11 col-md-6">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Your mail"
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary violet" type="button"
+                            id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="container d-none d-md-block">
+            <div class="row">
+                <div class="col">
+                    <p>Company Info</p>
+                    <a href="" class="text-white text-decoration-none">About Us <br></a>
+                    <a href="" class="text-white text-decoration-none">Carrier <br></a>
+                    <a href="" class="text-white text-decoration-none">We are hiring <br></a>
+                    <a href="" class="text-white text-decoration-none">blog</a>
+                </div>
+                <div class="col">
+                    <p>Company Info</p>
+                    <a href="" class="text-white text-decoration-none">About Us <br></a>
+                    <a href="" class="text-white text-decoration-none">Carrier <br></a>
+                    <a href="" class="text-white text-decoration-none">We are hiring <br></a>
+                    <a href="" class="text-white text-decoration-none">blog</a>
+                </div>
+                <div class="col">
+                    <p>Company Info</p>
+                    <a href="" class="text-white text-decoration-none">About Us <br></a>
+                    <a href="" class="text-white text-decoration-none">Carrier <br></a>
+                    <a href="" class="text-white text-decoration-none">We are hiring <br></a>
+                    <a href="" class="text-white text-decoration-none">blog</a>
+                </div>
+                <div class="col">
+                    <p>Company Info</p>
+                    <a href="" class="text-white text-decoration-none">About Us <br></a>
+                    <a href="" class="text-white text-decoration-none">Carrier <br></a>
+                    <a href="" class="text-white text-decoration-none">We are hiring <br></a>
+                    <a href="" class="text-white text-decoration-none">blog</a>
+                </div>
+                <div class="col">
+                    <p>Get In Touch</p>
+                    <a href="" class="text-white text-decoration-none"><i class="ri-phone-fill"></i> (480) 555-0103<br></a>
+                    <a href="" class="text-white text-decoration-none"><i class="ri-map-pin-line"></i> 4517 Washington Ave. Manchester,
+                        Kentucky 39495 <br></a>
+                    <a href="" class="text-white text-decoration-none"><i class="ri-mail-send-line"></i> debra.holt@example.com<br></a>
+                </div>
+            </div>
+        </div>
+        <div class="row bg-white text-black">
+            <div class="container">
+                <div class="container  d-flex justify-content-between">
+                    <div class="col-4 d-none d-md-block">
+                       <p class="mt-3"> Made With Love By Figmaland All Right Reserved </p>
+                    </div>
+                    <div class="col-3 d-flex justify-content-end fs-2 align-items-center">
+                        <i class="ri-facebook-circle-fill mx-2 monCouleur"></i>
+                        <i class="ri-instagram-line mx-2 monCouleur"></i>
+                        <i class="ri-twitter-fill monCouleur"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
